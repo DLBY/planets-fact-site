@@ -1,11 +1,12 @@
 import React from 'react';
-import Hamburger from '../../../assets/icons/icon-hamburger.svg';
+import { IconHamburger, useToggleMenu } from '../../index';
 
 export const NavMobile = () => {
+  const { toggleMenu, isOpen } = useToggleMenu();
   return (
     <div className="flex">
       <a className="inline-block text-sm px-4 py-2  text-white" href="#">
-        <img src={Hamburger} alt="Hamburger icon" />
+        <IconHamburger onClick={toggleMenu} isOpen={isOpen} />
       </a>
     </div>
   );
