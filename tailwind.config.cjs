@@ -50,7 +50,7 @@ module.exports = {
     },
     extend: {
       content: {
-        stars: 'url(./icons/background-stars.svg)',
+        stars: 'url(src/assets/icons/background-stars.svg)',
       },
     },
   },
