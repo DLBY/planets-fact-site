@@ -32,5 +32,10 @@ module.exports = {
       sans: ['Spartan-Regular', 'sans-serif'],
       serif: ['Antonio-Medium', 'serif'],
     },
+    extend: {
+      content: {
+        stars: 'url(./src/assets/icons/background-stars.svg)',
+      },
+    },
   },
 };
