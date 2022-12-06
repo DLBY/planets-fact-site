@@ -19,7 +19,11 @@ module.exports = {
         DEFAULT: '#6f2ed6',
         light: '#38384F',
       },
-      gray: '#838391',
+      gray: {
+        DEFAULT: '#838391',
+        secondary: '#979797',
+      },
+
       yellow: '#EDA249',
       red: '#D83A34',
       orange: {
@@ -29,10 +33,25 @@ module.exports = {
       cyan: '#1ec2a4',
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      sans: ['Spartan-Regular', 'sans-serif'],
+      serif: ['Antonio-Medium', 'serif'],
+    },
+    fontSize: {
+      sm: '0.8rem',
+      base: '1rem',
+      xl: '1.25rem',
+      '2xl': '1.563rem',
+      '3xl': '1.75rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
+    },
+    letterSpacing: {
+      tightest: '-1.05px',
+    },
+    extend: {
+      content: {
+        stars: 'url(./src/assets/icons/background-stars.svg)',
+      },
     },
   },
-  variants: {},
-  plugins: [],
 };
