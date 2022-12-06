@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavDesktop } from './NavDesktop/NavDesktop';
 import { NavMobile } from './NavMobile/NavMobile';
 
 export const Navbar = () => {
@@ -7,6 +8,7 @@ export const Navbar = () => {
       <div className="flex items-center">
         <span className="font-serif text-3xl uppercase tracking-tightest">The Planets</span>
       </div>
+      <NavDesktop />
       <NavMobile />
     </nav>
   );
