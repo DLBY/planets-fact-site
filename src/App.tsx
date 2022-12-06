@@ -4,7 +4,6 @@ function App() {
   return (
     <Wrapper>
       <Navbar />
-      <p>Hello</p>
     </Wrapper>
   );
 }
