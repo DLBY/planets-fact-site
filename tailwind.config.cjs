@@ -29,10 +29,8 @@ module.exports = {
       cyan: '#1ec2a4',
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      sans: ['Spartan-Regular', 'sans-serif'],
+      serif: ['Antonio-Medium', 'serif'],
     },
   },
-  variants: {},
-  plugins: [],
 };
