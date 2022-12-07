@@ -37,7 +37,10 @@ module.exports = {
       serif: ['Antonio-Medium', 'serif'],
     },
     fontSize: {
+      xxs: '0.5625rem',
+      xs: '0.75rem',
       sm: '0.8rem',
+      xsm: '0.9375rem',
       base: '1rem',
       xl: '1.25rem',
       '2xl': '1.563rem',
@@ -51,6 +54,7 @@ module.exports = {
     extend: {
       content: {
         stars: 'url(/src/assets/icons/background-stars.svg)',
+        chevron: 'url(/src/assets/icons/icon-chevron.svg)',
       },
     },
   },

@@ -1,9 +1,8 @@
-import { SVGProps } from 'react';
-
 type HamburgerProps = {
   onClick: () => void;
   isOpen: boolean;
 };
+
 export const IconHamburger: React.FC<HamburgerProps> = ({ onClick, isOpen }) => {
   const classes = isOpen ? 'fill-gray' : 'fill-white';
   return (
