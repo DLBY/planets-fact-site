@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
 import App from './App';
 import './assets/styles/index.css';
-import { Mercury, Venus } from './pages/index';
-import { Planet } from './components/index';
+import { ErrorPage, Planet } from './pages/index';
 import { planetsData } from './data/data';
 
 // const router = createBrowserRouter([
@@ -31,11 +30,13 @@ const router = createBrowserRouter(
     {
       path: '/',
       element: <App />,
+      errorElement: <ErrorPage />,
     },
   ].concat(
     planetsData.map((planet) => ({
       path: `/${planet.name}`,
       element: <Planet planetData={planet} />,
+      errorElement: <ErrorPage />,
     }))
   )
 );

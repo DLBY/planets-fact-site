@@ -1,2 +1,2 @@
-export { Mercury } from './Mercury/Mercury';
-export { Venus } from './Venus/Venus';
+export { Planet } from './Planet/Planet';
+export { ErrorPage } from './ErrorPage';
