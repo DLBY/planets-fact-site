@@ -37,6 +37,7 @@ module.exports = {
       serif: ['Antonio-Medium', 'serif'],
     },
     fontSize: {
+      xxs: '0.5625rem',
       xs: '0.75rem',
       sm: '0.8rem',
       xsm: '0.9375rem',
