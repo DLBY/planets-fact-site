@@ -18,9 +18,9 @@ export const planetsData = [
     "radius": "2,439.7 KM",
     "temperature": "430°c",
     "images": {
-      "planet": "src/assets/icons/planet-mercury.svg",
-      "internal": "src/assets/icons/planet-mercury-internal.svg",
-      "geology": "src/assets/icons/geology-mercury.png"
+      "planet": "/src/assets/icons/planet-mercury.svg",
+      "internal": "/src/assets/icons/planet-mercury-internal.svg",
+      "geology": "/src/assets/icons/geology-mercury.png"
     },
     "mobileImgWidth" : "111",
     "tabletImgWidth" : "184",
@@ -45,13 +45,13 @@ export const planetsData = [
     "radius": "6,051.8 KM",
     "temperature": "471°c",
     "images": {
-      "planet": "src/assets/icons/planet-venus.svg",
-      "internal": "src/assets/icons/planet-venus-internal.svg",
-      "geology": "src/assets/icons/geology-venus.png"
+      "planet": "/src/assets/icons/planet-venus.svg",
+      "internal": "/src/assets/icons/planet-venus-internal.svg",
+      "geology": "/src/assets/icons/geology-venus.png"
     },
-    "mobileImgWidth" : "111",
-    "tabletImgWidth" : "184",
-    "desktopImgWidth" : "290"
+    "mobileImgWidth" : "154",
+    "tabletImgWidth" : "253",
+    "desktopImgWidth" : "400"
   },
   {
     "name": "Earth",
@@ -72,13 +72,13 @@ export const planetsData = [
     "radius": "6,371 KM",
     "temperature": "16°c",
     "images": {
-      "planet": "src/assets/icons/planet-earth.svg",
-      "internal": "src/assets/icons/planet-earth-internal.svg",
-      "geology": "src/assets/icons/geology-earth.png"
+      "planet": "/src/assets/icons/planet-earth.svg",
+      "internal": "/src/assets/icons/planet-earth-internal.svg",
+      "geology": "/src/assets/icons/geology-earth.png"
     },
-    "mobileImgWidth" : "111",
-    "tabletImgWidth" : "184",
-    "desktopImgWidth" : "290"
+    "mobileImgWidth" : "173",
+    "tabletImgWidth" : "285",
+    "desktopImgWidth" : "450"
   },
   {
     "name": "Mars",
@@ -99,13 +99,13 @@ export const planetsData = [
     "radius": "3,389.5 KM",
     "temperature": "-28°c",
     "images": {
-      "planet": "src/assets/icons/planet-mars.svg",
-      "internal": "src/assets/icons/planet-mars-internal.svg",
-      "geology": "src/assets/icons/geology-mars.png"
+      "planet": "/src/assets/icons/planet-mars.svg",
+      "internal": "/src/assets/icons/planet-mars-internal.svg",
+      "geology": "/src/assets/icons/geology-mars.png"
     },
-    "mobileImgWidth" : "111",
-    "tabletImgWidth" : "184",
-    "desktopImgWidth" : "290"
+    "mobileImgWidth" : "129",
+    "tabletImgWidth" : "213",
+    "desktopImgWidth" : "336"
   },
   {
     "name": "Jupiter",
@@ -126,13 +126,13 @@ export const planetsData = [
     "radius": "69,911 KM",
     "temperature": "-108°c",
     "images": {
-      "planet": "src/assets/icons/planet-jupiter.svg",
-      "internal": "src/assets/icons/planet-jupiter-internal.svg",
-      "geology": "src/assets/icons/geology-jupiter.png"
+      "planet": "/src/assets/icons/planet-jupiter.svg",
+      "internal": "/src/assets/icons/planet-jupiter-internal.svg",
+      "geology": "/src/assets/icons/geology-jupiter.png"
     },
-    "mobileImgWidth" : "111",
-    "tabletImgWidth" : "184",
-    "desktopImgWidth" : "290"
+    "mobileImgWidth" : "224",
+    "tabletImgWidth" : "369",
+    "desktopImgWidth" : "582"
   },
   {
     "name": "Saturn",
@@ -153,13 +153,13 @@ export const planetsData = [
     "radius": "58,232 KM",
     "temperature": "-138°c",
     "images": {
-      "planet": "src/assets/icons/planet-saturn.svg",
-      "internal": "src/assets/icons/planet-saturn-internal.svg",
-      "geology": "src/assets/icons/geology-saturn.png"
+      "planet": "/src/assets/icons/planet-saturn.svg",
+      "internal": "/src/assets/icons/planet-saturn-internal.svg",
+      "geology": "/src/assets/icons/geology-saturn.png"
     },
-    "mobileImgWidth" : "111",
-    "tabletImgWidth" : "184",
-    "desktopImgWidth" : "290"
+    "mobileImgWidth" : "256",
+    "tabletImgWidth" : "422",
+    "desktopImgWidth" : "666"
   },
   {
     "name": "Uranus",
@@ -180,13 +180,13 @@ export const planetsData = [
     "radius": "25,362 KM",
     "temperature": "-195°c",
     "images": {
-      "planet": "src/assets/icons/planet-uranus.svg",
-      "internal": "src/assets/icons/planet-uranus-internal.svg",
-      "geology": "src/assets/icons/geology-uranus.png"
+      "planet": "/src/assets/icons/planet-uranus.svg",
+      "internal": "/src/assets/icons/planet-uranus-internal.svg",
+      "geology": "/src/assets/icons/geology-uranus.png"
     },
-    "mobileImgWidth" : "111",
-    "tabletImgWidth" : "184",
-    "desktopImgWidth" : "290"
+    "mobileImgWidth" : "176",
+    "tabletImgWidth" : "290",
+    "desktopImgWidth" : "458"
   },
   {
     "name": "Neptune",
@@ -207,12 +207,12 @@ export const planetsData = [
     "radius": "24,622 KM",
     "temperature": "-201°c",
     "images": {
-      "planet": "src/assets/icons/planet-neptune.svg",
-      "internal": "src/assets/icons/planet-neptune-internal.svg",
-      "geology": "src/assets/icons/geology-neptune.png"
+      "planet": "/src/assets/icons/planet-neptune.svg",
+      "internal": "/src/assets/icons/planet-neptune-internal.svg",
+      "geology": "/src/assets/icons/geology-neptune.png"
     },
-    "mobileImgWidth" : "111",
-    "tabletImgWidth" : "184",
-    "desktopImgWidth" : "290"
+    "mobileImgWidth" : "173",
+    "tabletImgWidth" : "285",
+    "desktopImgWidth" : "450"
   }
 ]
