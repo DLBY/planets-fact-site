@@ -21,4 +21,7 @@ export interface PlanetProps {
     internal: string;
     geology: string;
   };
+  mobileImgWidth: string;
+  tabletImgWidth: string;
+  desktopImgWidth: string;
 }

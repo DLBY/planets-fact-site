@@ -38,18 +38,21 @@ module.exports = {
     },
     fontSize: {
       xxs: '0.5625rem',
-      xs: '0.75rem',
+      xs: '0.6875rem',
       sm: '0.8rem',
       xsm: '0.9375rem',
       base: '1rem',
       xl: '1.25rem',
       '2xl': '1.563rem',
       '3xl': '1.75rem',
-      '4xl': '2.441rem',
-      '5xl': '3.052rem',
+      '4xl': '2.5rem',
+      '5xl': '305.2rem',
     },
     letterSpacing: {
       tightest: '-1.05px',
+    },
+    lineHeight: {
+      medium: '22px',
     },
     extend: {
       content: {
