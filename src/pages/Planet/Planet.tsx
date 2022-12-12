@@ -1,5 +1,11 @@
-import React from 'react';
-import { Navbar, PlanetImage, PlanetInfo, Tabs, Wrapper } from '../../components/index';
+import {
+  Navbar,
+  PlanetDetails,
+  PlanetImage,
+  PlanetInfo,
+  Tabs,
+  Wrapper,
+} from '../../components/index';
 import { PlanetProps } from '../../data/dataType';
 
 export const Planet = ({ planetData }: { planetData: PlanetProps }) => {
@@ -9,6 +15,7 @@ export const Planet = ({ planetData }: { planetData: PlanetProps }) => {
       <Tabs />
       <PlanetImage planetData={planetData} />
       <PlanetInfo planetData={planetData} />
+      <PlanetDetails planetData={planetData} />
     </Wrapper>
   );
 };
