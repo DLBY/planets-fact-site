@@ -18,7 +18,7 @@ export const planetsData = [
     "radius": "2,439.7 KM",
     "temperature": "430°c",
     "images": {
-      "planet": "url(./src/assets/icons/planet-mercury.svg)",
+      "planet": "src/assets/icons/planet-mercury.svg",
       "internal": "./src/assets/icons/planet-mercury-internal.svg",
       "geology": "./src/assets/icons/geology-mercury.png"
     },
