@@ -1,7 +1,8 @@
 import { PlanetProps } from '@/data/dataType';
-import { Image } from '..';
+import { Image, useChangeData } from '..';
 
 export const PlanetImage = ({ planetData }: { planetData: PlanetProps }) => {
+  // console.log('planetImage', currentData);
   return (
     <div
       className={

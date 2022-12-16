@@ -1,39 +1,40 @@
 import { planetsData } from '@/data/data';
+import { PlanetProps } from '@/data/dataType';
 import { useState } from 'react';
+import { useChangeData } from '..';
 
-type TabsProps = {
-  currentTab: any;
-  handleClick: any;
-};
+export const Tabs = ({ planetData }: { planetData: PlanetProps }) => {
+  const { currentTab, handleClick } = useChangeData(planetData);
 
-export const Tabs = () => {
-  const [isActive, setIsActive] = useState('overview');
   return (
     <div className="flex px-6 font-bold justify-between border-b border-gray-secondary/50">
       <button
         className={
           `py-5 uppercase text-xxs
-            ` + (isActive === 'overview' ? 'text-white' : 'text-gray')
+            ` + (currentTab === 'overview' ? 'text-white' : 'text-gray')
         }
         data-type={'overview'}
+        onClick={handleClick}
       >
         overview
       </button>
       <button
         className={
           `py-5 uppercase text-xxs
-            ` + (isActive === 'internal' ? 'text-white' : 'text-gray')
+            ` + (currentTab === 'structure' ? 'text-white' : 'text-gray')
         }
-        data-type={'internal'}
+        data-type={'structure'}
+        onClick={handleClick}
       >
         structure
       </button>
       <button
         className={
           `py-5 uppercase text-xxs
-            ` + (isActive === 'surface' ? 'text-white' : 'text-gray')
+            ` + (currentTab === 'geology' ? 'text-white' : 'text-gray')
         }
-        data-type={'surface'}
+        data-type={'geology'}
+        onClick={handleClick}
       >
         geology
       </button>
