@@ -10,6 +10,7 @@ export { FramedInfo } from './FramedInfo/FramedInfo';
 
 // Hooks
 export { useToggleMenu } from './Navbar/useToggleMenu';
+export { useChangeData } from './Planet/useChangeData';
 
 // Icons
 export { IconHamburger }  from './Icons/IconHamburger';

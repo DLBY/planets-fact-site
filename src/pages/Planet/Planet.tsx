@@ -5,6 +5,7 @@ import {
   PlanetInfo,
   Tabs,
   Wrapper,
+  useChangeData,
 } from '../../components/index';
 import { PlanetProps } from '../../data/dataType';
 
